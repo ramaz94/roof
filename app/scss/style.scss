@@ -1,0 +1,92 @@
+@import '_global';
+
+// start header
+
+.header {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header__inner {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__item {
+    max-width: 255px;
+    display: flex;
+}
+
+.header__item-text, .header__item-phone{
+    margin-left: 15px;
+}
+
+.item-text, .item__phone{
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #974800;
+    background-image: linear-gradient(268.01deg, #000000 1.68%, #974800 122.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.call__form {
+    max-width: 180px;
+}
+.call__phone {
+    max-width: 180px;
+    font-size: 16px;
+    padding: 13px 10px 13px 32px;
+    border: 1px solid #F3F3F3;
+    box-shadow: inset 0px -2px 8px rgba(0, 0, 0, 0.04), inset 0px 2px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 11px;
+    outline: none;
+    background-image: url(../img/icons/phome.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    margin-bottom: 10px;
+}
+
+.btm {
+    border: none;
+    background: linear-gradient(180deg, #FF5E43 5.21%, #FF5539 8.85%, #FF4131 51.04%, #FF4737 100%);
+    box-shadow: 0px -2px 0px #FF755E, 0px 2px 0px #E63925, 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 12px 12px;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.call__btn {
+    padding: 12px 27px;
+}
+
+
+//end header 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '_media';
